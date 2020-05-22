@@ -1,0 +1,39 @@
+
+/*.my-row{
+    border: 4px dotted green;
+
+}*/
+/*.my-container{
+    border: 5px solid green;
+}
+
+.my-col{
+    border: 3px solid blue;
+
+}
+
+.my-head{
+    border: 3px solid yellow;
+}
+
+*/
+
+
+.my-title{
+  text-align: center;
+  padding: 100px;
+}
+.text-center{
+    text-align: center;
+}
+main{
+    min-height: calc(100vh - 56px - 64px)
+}
+
+footer{
+    text-align: center;
+    background-color: #343a40;
+    color: #fff;
+    padding: 20px;
+
+}

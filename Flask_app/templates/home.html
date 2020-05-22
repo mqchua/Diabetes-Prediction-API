@@ -1,0 +1,53 @@
+{% extends "index.html" %}
+{% block tab %} Diabetes API {% endblock %}
+{% block title %} Diabetes Prediction {% endblock %}
+{% block content %}
+
+<div class="container my-container">
+          <form action="{{ url_for('predict')}}"method="post">
+            <div class="row my-row">
+              <div class="col-md-6 col-lg-3 col-sm-12 form-group">
+                  <input type="text" name="1" placeholder="Pregnancies" class="form-control" />
+                </div>
+                <div class="col-md-6 col-lg-3 col-sm-12 form-group">
+                  <input type="text" name="2" placeholder="Glucose" class="form-control"/>
+                </div>
+                <div class="col-md-6 col-lg-3 col-sm-12 form-group">
+                  <input type="text" name="3" placeholder="BloodPressure" class="form-control" />
+                </div>
+                <div class="col-md-6 col-lg-3 col-sm-12 form-group">
+                  <input type="text" name="4" placeholder="Skin" class="form-control"/>
+                </div>
+            </div>
+            <div class="row my-row">
+              <div class="col-md-6 col-lg-3 col-sm-12 form-group">
+                 <input type="text" name="5" placeholder="Insulin" class="form-control" />
+                </div>
+                <div class="col-md-6 col-lg-3 col-sm-12 form-group">
+                 <input type="text" name="6" placeholder="BMI" class="form-control" />
+                </div>
+                <div class="col-md-6 col-lg-3 col-sm-12 form-group">
+                 <input type="text" name="7" placeholder="DPF" class="form-control"/>
+                </div>
+                <div class="col-md-6 col-lg-3 col-sm-12 form-group">
+                  <input type="text" name="8" placeholder="Age" class="form-control"/>
+                </div>
+            </div>
+            <div class="row my-row m-2">
+              <div class="col text-center">
+            <button type="submit" class="btn btn-primary btn-large">Predict</button>
+              </div>
+            </div>
+           </form>
+
+          <div class="row my-row m-5 text-center">
+            <div class="col text-center">
+              {{ prediction_text }}
+            </div>
+          </div>
+
+        </div>
+
+ {% endblock %}
+
+
