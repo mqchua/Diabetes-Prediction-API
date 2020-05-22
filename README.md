@@ -1,5 +1,5 @@
 # Summary
-A website to predict the probability of having diabetes;
+A website to predict the probability of having diabetes
 
 ## Website
 https://portfolio-cmq.herokuapp.com/
