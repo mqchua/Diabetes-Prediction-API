@@ -1,8 +1,5 @@
-# Diabetes-Prediction-API
-Source code for Flask implementation &amp; Notebook for data analysis
-
-## Summary
-A website to predict the probability of having diabetes 
+# Summary
+A website to predict the probability of having diabetes;
 
 ## Website
 https://portfolio-cmq.herokuapp.com/
