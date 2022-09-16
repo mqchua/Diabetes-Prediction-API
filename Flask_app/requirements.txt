@@ -80,7 +80,7 @@ manhattan-dispatch==0.0.6
 MarkupSafe==1.1.1
 matplotlib==3.1.3
 mccabe==0.6.1
-mistune==0.8.4
+mistune==2.0.3
 MultiMapping==4.1
 nbconvert==6.3.0
 nbformat==5.0.4
