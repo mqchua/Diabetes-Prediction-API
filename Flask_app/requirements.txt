@@ -174,7 +174,7 @@ wcwidth==0.1.8
 webencodings==0.5.1
 WebOb==1.8.6
 WebTest==2.0.34
-Werkzeug==1.0.1
+Werkzeug==2.2.3
 WSGIProxy2==0.4.6
 WTForms==2.2.1
 z3c.pt==3.3.0
